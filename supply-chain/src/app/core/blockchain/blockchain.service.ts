@@ -486,6 +486,7 @@ export class BlockchainService {
     const self = this;
     return function(error, value) {
       if (error) {
+
         const errorMessage = error.message ? JSON.parse(error.message.replace('Invalid JSON RPC response: ', '')) : {};
         // Retry access token once more
         if (errorMessage && errorMessage.status === 401 && !retry) {
