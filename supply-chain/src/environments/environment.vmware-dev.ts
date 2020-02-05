@@ -6,7 +6,7 @@
 
 export const environment = {
   production: false,
-  blockchainType: 'vmware',
-  path: '/vmware',
+  blockchainType: 'ganache',
+  path:'http://localhost:4200/ganache',
   network: '5000',
 };

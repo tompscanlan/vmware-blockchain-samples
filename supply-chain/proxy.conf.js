@@ -26,7 +26,7 @@ const PROXY_CONFIG = {
     }
   },
   "/ganache": {
-    "target": "http://127.0.0.1:7545",
+    "target": "http://ethrpc1:8545",
     "secure": false,
     "changeOrigin": true,
     "pathRewrite": {
