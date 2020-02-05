@@ -83,7 +83,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "host": "127.0.0.1",
+            "host": "0.0.0.0",
             "disableHostCheck": true,
             "browserTarget": "supply-chain-dapp:build"
           },
