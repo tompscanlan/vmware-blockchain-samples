@@ -20,10 +20,11 @@ services:
       - ./truffle-config.js:/app/truffle-config.js
       - ./package.json:/app/package.json
       - ./verify:/app/verify
+      - ./src/environments/:/app/src/environments/
     environment:
       # Example
       # - BC_URL=https://localhost.vmware.com/api/blockchains/<blockchain-id>
-      - BC_URL=<change-me>
+      #- BC_URL=<change-me>
       - NODE_TLS_REJECT_UNAUTHORIZED=0
     networks:
       - compose_concord
