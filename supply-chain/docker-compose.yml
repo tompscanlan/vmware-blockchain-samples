@@ -7,7 +7,6 @@ version: '3'
 services:
   supply-chain:
     image: "mrharrison/supply-chain:latest"
-    network_mode: host
     build:
       context: .
     command: "npm run start:vmware"
@@ -26,3 +25,9 @@ services:
       # - BC_URL=https://localhost.vmware.com/api/blockchains/<blockchain-id>
       - BC_URL=<change-me>
       - NODE_TLS_REJECT_UNAUTHORIZED=0
+    networks:
+      - compose_concord
+
+networks:
+  compose_concord:
+    external: true
