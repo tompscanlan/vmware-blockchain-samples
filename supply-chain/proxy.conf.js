@@ -18,7 +18,7 @@ const PROXY_CONFIG = {
     }
   },
   "/concord": {
-    "target": "http://127.0.0.1:8545",
+    "target": "http://ethrpc1:8545",
     "secure": false,
     "changeOrigin": true,
     "pathRewrite": {

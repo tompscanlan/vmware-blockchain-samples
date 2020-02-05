@@ -9,7 +9,7 @@ services:
     image: "mrharrison/supply-chain:latest"
     build:
       context: .
-    command: "npm run start:vmware"
+    command: "npm run start:concord"
     ports:
       - 4200:4200
     volumes:
