@@ -7,6 +7,6 @@
 export const environment = {
   production: false,
   blockchainType: 'concord',
-  path: 'http://localhost:4200/concord',
+  path: 'http://concourse.corp.local:4200/concord',
   network: '5000',
 };
