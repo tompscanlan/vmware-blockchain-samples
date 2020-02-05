@@ -80,6 +80,27 @@ module.exports = {
         "wss://localhost:8080/ws"
       )
     },
+
+    ethrpc1: {
+      host: "ethrpc1",     // Localhost (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
+     },
+      ethrpc2: {
+      host: "ethrpc2",     // Localhost (default: none)
+      port: 8546,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
+     },
+     ethrpc3: {
+      host: "ethrpc3",     // Localhost (default: none)
+      port: 8547,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
+     },
+     ethrpc3: {
+      host: "ethrpc4",     // Localhost (default: none)
+      port: 8548,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
+     },
     // Another network with more advanced options...
     // advanced: {
       // port: 8777,             // Custom port
